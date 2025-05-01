@@ -1,0 +1,20 @@
+[project]
+name = "trupe"
+version = "0.1.0"
+description = "trupe using crewAI"
+authors = [{ name = "Jorge S. Aguila", email = "jsanchezpc@hotmail.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.80.0,<1.0.0"
+]
+
+[project.scripts]
+trupe = "trupe.main:run"
+run_crew = "trupe.main:run"
+train = "trupe.main:train"
+replay = "trupe.main:replay"
+test = "trupe.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
