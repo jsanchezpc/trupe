@@ -40,44 +40,20 @@ Out of the box, Trupe comes with:
 
 ### Requirements
 - Python **3.10** to **3.13**
-- `pip` for package management
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd trupe
-   ```
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # or .venv\Scripts\activate on Windows
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -e .
-   ```
-
----
 
 ## 🚦 Usage
 
 ### Run the Crew
 Start the agent system and execute the default workflow:
 ```bash
-run_crew
-# or
-trupe
+crewai run
 ```
 
 📝 This generates a `report.md` with research findings on AI LLMs by default.
 
 ---
 
-### Train Your Crew
+<!-- ### Train Your Crew
 Improve agent behavior over multiple iterations:
 ```bash
 train <iterations> <filename>
@@ -86,23 +62,23 @@ train <iterations> <filename>
 - `iterations`: Number of training loops
 - `filename`: Output file for results
 
----
+--- -->
 
-### Replay a Task
+<!-- ### Replay a Task
 Re-execute a past task for debugging or review:
 ```bash
 replay <task_id>
 ```
 
----
+--- -->
 
-### Test the System
+<!-- ### Test the System
 Run all agents and validate outputs:
 ```bash
 test
 ```
 
----
+--- -->
 
 ## 📁 Project Structure
 
@@ -143,18 +119,18 @@ Tailor Trupe to your needs by:
 - Creating tools under `tools/` to enhance agent capabilities
 - Extending logic in `crew.py` for new behaviors
 
----
+<!-- ---
 
 ## 📜 License
 
-> Specify your license here (e.g. MIT, Apache 2.0, etc.)
+> Specify your license here (e.g. MIT, Apache 2.0, etc.) -->
 
 ---
 
 ## 🤝 Contributing
 
 > Contributions are welcome! Feel free to open issues or submit pull requests.
-> [Specify detailed guidelines here if needed.]
+<!-- > [Specify detailed guidelines here if needed.] -->
 
 ---
 
